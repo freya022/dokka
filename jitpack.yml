@@ -1,0 +1,2 @@
+before_install:
+  - find . -name "gradle.properties" | xargs sed -i "s/dokka_version=1.9.0-SNAPSHOT/dokka_version=${VERSION}/g"
